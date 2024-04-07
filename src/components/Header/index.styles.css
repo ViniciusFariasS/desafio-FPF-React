@@ -7,21 +7,6 @@ header {
     align-items: center;
     height: 60px;
 
-    .logo {
-        margin-left: 32px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        img {
-            width: 40px;
-        }
-        h4 {
-            font-size: 14px;
-            max-width: 150px;
-            text-align: center;
-        }
-    }
-
     .user {
         margin-left: auto;
 
@@ -37,5 +22,22 @@ header {
         img {
             width: 20px;
         }
+    }
+}
+
+.logo {
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    img {
+        width: 40px;
+    }
+
+    h4 {
+        font-size: 14px;
+        max-width: 150px;
+        text-align: center;
     }
 }
