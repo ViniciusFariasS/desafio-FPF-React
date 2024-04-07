@@ -1,0 +1,52 @@
+.more {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.more-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.more-content {
+    background-color: #DEE7E7;
+    gap: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.more-cards-header {
+    width: 100%;
+    height: 50px;
+    background-color: #4F646F;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.more-cards {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.more-content-card {
+    display: flex;
+    background-color: #F4FAFF;
+    padding: 16px;
+    gap: 8px;
+    border-radius: 16px;
+
+    a:hover {
+        color: #4F646F !important;
+
+        svg {
+            color: #4F646F !important;
+        }
+    }
+
+}

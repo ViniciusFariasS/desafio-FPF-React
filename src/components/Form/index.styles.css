@@ -1,0 +1,78 @@
+.form-modal-content {
+    background-color: #fefefe;
+    border-radius: 8px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+
+    h2 {
+        margin-bottom: 16px;
+    }
+
+    label {
+        margin-right: 8px;
+    }
+
+    #personForm {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        label {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        input {
+            height: 30px;
+            border: 1px solid lightgray;
+            border-radius: 8px;
+        }
+
+        #photo {
+            border: none;
+            cursor: pointer;
+        }
+
+        #birthdate {
+            cursor: pointer;
+        }
+
+        select {
+            height: 30px;
+            border: 1px solid lightgray;
+            border-radius: 8px;
+            max-width: 150px;
+            cursor: pointer;
+        }
+
+        button {
+            margin-left: auto;
+            background-color: #4F646F;
+            color: white;
+            border-radius: 8px;
+            height: 30px;
+        }
+
+        button:hover {
+            background-color: #3a4850;
+        }
+    }
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
