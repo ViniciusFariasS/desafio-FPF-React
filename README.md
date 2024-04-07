@@ -1,6 +1,10 @@
 # Desafio FrontEnd Federação Paulista de Futebol
 
-Este é um projeto React com TypeScript. Este guia vai te ensinar como rodar o projeto assim que você baixar do GitHub.
+Este é um projeto React com TypeScript com o intuito de mostrar minhas habilidades com o desenvolvimento front-end. Este guia vai te ensinar como rodar o projeto assim que você baixar do GitHub.
+
+## Observação
+
+Como este é um projeto sem back-end integrado ele tem apenas a função de prototipar as interações do usuário.
 
 ## Pré-requisitos
 
